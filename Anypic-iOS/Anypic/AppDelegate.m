@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Parse/Parse.h>
 #import "Reachability.h"
 #import "MBProgressHUD.h"
 #import "PAPHomeViewController.h"
@@ -44,7 +44,7 @@
 
     // ****************************************************************************
     // Parse initialization
-    // [Parse setApplicationId:@"APPLICATION_ID" clientKey:@"CLIENT_KEY"];
+     [Parse setApplicationId:@"JW3La7GlkOBCPYIQQ2UxIA0mSe10IUvienNksIQh" clientKey:@"vEQhbG6sU7rwO44Lpwpa7OFPBJXdK3rewZ9iFRcM"];
     [PFFacebookUtils initializeFacebook];
     // ****************************************************************************
     
